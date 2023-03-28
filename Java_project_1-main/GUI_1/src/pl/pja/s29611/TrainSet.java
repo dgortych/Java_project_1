@@ -1,11 +1,9 @@
-
-import java.util.*;
-
+package pl.pja.s29611;
 
 public class TrainSet {
 
     int locomotive_id;
-    List<Integer> train_cars = new ArrayList<>();
+    int[] train_cars;
 
 
     int isFull() {
@@ -14,5 +12,3 @@ public class TrainSet {
 
 
 }
-
-

@@ -1,13 +1,5 @@
 public class App {
     public static void main(String[] args) throws Exception {
-
-            TrainCar w1 = new PostalCar();
-            PostalCar w2 = new PostalCar();
-            TrainCar w3 = new PassengerCar();
-            TrainCar w4 = new PassengerCar();
-            System.out.print(w4.getId());
-        
-        /* 
     System.out.println("MT start");
     Thread thread = new Thread(() -> {
         
@@ -39,8 +31,5 @@ public class App {
         System.out.println("MT " + i);
     }
     System.out.println("MT stop");
-    */
-
     }
-
 }
