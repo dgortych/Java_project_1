@@ -1,0 +1,308 @@
+Skład numer: 2
+Trasa: Station 5 --> Station 89
+Procent ukończonej całkowiteh trasy: 0 % 
+Obecna Stacja: Station 5
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 112.41873199999999
+Liczba wagonów :0
+Informacja o wagonach: []
+
+Skład numer: 0
+Trasa: Station 5 --> Station 89
+Procent ukończonej całkowiteh trasy: 2 % 
+Obecna Stacja: Station 5
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 79.468414
+Liczba wagonów :0
+Informacja o wagonach: []
+
+Skład numer: 1
+Trasa: Station 56 --> Station 178
+Procent ukończonej całkowiteh trasy: 3 % 
+Obecna Stacja: Station 56
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 82.375795
+Liczba wagonów :0
+Informacja o wagonach: []
+
+
+Skład numer: 2
+Trasa: Station 5 --> Station 89
+Procent ukończonej całkowiteh trasy: 0 % 
+Obecna Stacja: Station 5
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 115.5829634218201
+Liczba wagonów :0
+Informacja o wagonach: []
+
+Skład numer: 0
+Trasa: Station 5 --> Station 89
+Procent ukończonej całkowiteh trasy: 9 % 
+Obecna Stacja: Station 5
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 86.75912807151552
+Liczba wagonów :0
+Informacja o wagonach: []
+
+Skład numer: 1
+Trasa: Station 56 --> Station 178
+Procent ukończonej całkowiteh trasy: 11 % 
+Obecna Stacja: Station 56
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 79.76075773459213
+Liczba wagonów :0
+Informacja o wagonach: []
+
+
+Skład numer: 2
+Trasa: Station 5 --> Station 89
+Procent ukończonej całkowiteh trasy: 0 % 
+Obecna Stacja: Station 5
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 115.3750077098612
+Liczba wagonów :0
+Informacja o wagonach: []
+
+Skład numer: 0
+Trasa: Station 5 --> Station 89
+Procent ukończonej całkowiteh trasy: 16 % 
+Obecna Stacja: Station 5
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 81.55819510524671
+Liczba wagonów :0
+Informacja o wagonach: []
+
+Skład numer: 1
+Trasa: Station 56 --> Station 178
+Procent ukończonej całkowiteh trasy: 19 % 
+Obecna Stacja: Station 56
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 84.54203151153625
+Liczba wagonów :0
+Informacja o wagonach: []
+
+
+Skład numer: 2
+Trasa: Station 5 --> Station 89
+Procent ukończonej całkowiteh trasy: 0 % 
+Obecna Stacja: Station 5
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 100
+Prędkość: 111.7124033652475
+Liczba wagonów :0
+Informacja o wagonach: []
+
+Skład numer: 0
+Trasa: Station 5 --> Station 89
+Procent ukończonej całkowiteh trasy: 20 % 
+Obecna Stacja: Station 5
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 100
+Prędkość: 78.96911272370944
+Liczba wagonów :0
+Informacja o wagonach: []
+
+Skład numer: 1
+Trasa: Station 56 --> Station 178
+Procent ukończonej całkowiteh trasy: 23 % 
+Obecna Stacja: Station 59
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 77.08978621915516
+Liczba wagonów :0
+Informacja o wagonach: []
+
+
+Skład numer: 2
+Trasa: Station 5 --> Station 89
+Procent ukończonej całkowiteh trasy: 8 % 
+Obecna Stacja: Station 5
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 95.93124186246119
+Liczba wagonów :0
+Informacja o wagonach: []
+
+Skład numer: 0
+Trasa: Station 5 --> Station 89
+Procent ukończonej całkowiteh trasy: 27 % 
+Obecna Stacja: Station 10
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 86.21401912576553
+Liczba wagonów :0
+Informacja o wagonach: []
+
+Skład numer: 1
+Trasa: Station 56 --> Station 178
+Procent ukończonej całkowiteh trasy: 31 % 
+Obecna Stacja: Station 59
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 74.6425544352869
+Liczba wagonów :0
+Informacja o wagonach: []
+
+
+Skład numer: 2
+Trasa: Station 5 --> Station 89
+Procent ukończonej całkowiteh trasy: 16 % 
+Obecna Stacja: Station 5
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 87.47505583546413
+Liczba wagonów :0
+Informacja o wagonach: []
+
+Skład numer: 0
+Trasa: Station 5 --> Station 89
+Procent ukończonej całkowiteh trasy: 34 % 
+Obecna Stacja: Station 10
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 88.64067083643549
+Liczba wagonów :0
+Informacja o wagonach: []
+
+Skład numer: 1
+Trasa: Station 56 --> Station 178
+Procent ukończonej całkowiteh trasy: 38 % 
+Obecna Stacja: Station 59
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 72.2730105488393
+Liczba wagonów :0
+Informacja o wagonach: []
+
+
+Skład numer: 2
+Trasa: Station 5 --> Station 89
+Procent ukończonej całkowiteh trasy: 20 % 
+Obecna Stacja: Station 5
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 100
+Prędkość: 89.93720173744819
+Liczba wagonów :0
+Informacja o wagonach: []
+
+Skład numer: 0
+Trasa: Station 5 --> Station 89
+Procent ukończonej całkowiteh trasy: 41 % 
+Obecna Stacja: Station 10
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 76.11876010812081
+Liczba wagonów :0
+Informacja o wagonach: []
+
+Skład numer: 1
+Trasa: Station 56 --> Station 178
+Procent ukończonej całkowiteh trasy: 46 % 
+Obecna Stacja: Station 59
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 78.90359279500333
+Liczba wagonów :0
+Informacja o wagonach: []
+
+
+Skład numer: 2
+Trasa: Station 5 --> Station 89
+Procent ukończonej całkowiteh trasy: 20 % 
+Obecna Stacja: Station 10
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 87.08212599475057
+Liczba wagonów :0
+Informacja o wagonach: []
+
+Skład numer: 0
+Trasa: Station 5 --> Station 89
+Procent ukończonej całkowiteh trasy: 47 % 
+Obecna Stacja: Station 10
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 73.70235375623821
+Liczba wagonów :0
+Informacja o wagonach: []
+
+Skład numer: 1
+Trasa: Station 56 --> Station 178
+Procent ukończonej całkowiteh trasy: 51 % 
+Obecna Stacja: Station 59
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 100
+Prędkość: 86.14248816648592
+Liczba wagonów :0
+Informacja o wagonach: []
+
+
+Skład numer: 2
+Trasa: Station 5 --> Station 89
+Procent ukończonej całkowiteh trasy: 23 % 
+Obecna Stacja: Station 10
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 100.95205100064044
+Liczba wagonów :0
+Informacja o wagonach: []
+
+Skład numer: 0
+Trasa: Station 5 --> Station 89
+Procent ukończonej całkowiteh trasy: 50 % 
+Obecna Stacja: Station 77
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 67.20560877628839
+Liczba wagonów :0
+Informacja o wagonach: []
+
+Skład numer: 1
+Trasa: Station 56 --> Station 178
+Procent ukończonej całkowiteh trasy: 59 % 
+Obecna Stacja: Station 146
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 88.5671265070977
+Liczba wagonów :0
+Informacja o wagonach: []
+
+
+Skład numer: 2
+Trasa: Station 5 --> Station 89
+Procent ukończonej całkowiteh trasy: 31 % 
+Obecna Stacja: Station 10
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 97.74730650760057
+Liczba wagonów :0
+Informacja o wagonach: []
+
+Skład numer: 0
+Trasa: Station 5 --> Station 89
+Procent ukończonej całkowiteh trasy: 56 % 
+Obecna Stacja: Station 77
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 65.07215232352314
+Liczba wagonów :0
+Informacja o wagonach: []
+
+Skład numer: 1
+Trasa: Station 56 --> Station 178
+Procent ukończonej całkowiteh trasy: 68 % 
+Obecna Stacja: Station 146
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 96.6925887253193
+Liczba wagonów :0
+Informacja o wagonach: []
+
+
+Skład numer: 2
+Trasa: Station 5 --> Station 89
+Procent ukończonej całkowiteh trasy: 40 % 
+Obecna Stacja: Station 10
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 106.71499098923255
+Liczba wagonów :0
+Informacja o wagonach: []
+
+Skład numer: 0
+Trasa: Station 5 --> Station 89
+Procent ukończonej całkowiteh trasy: 62 % 
+Obecna Stacja: Station 77
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 75.43645914756088
+Liczba wagonów :0
+Informacja o wagonach: []
+
+Skład numer: 1
+Trasa: Station 56 --> Station 178
+Procent ukończonej całkowiteh trasy: 78 % 
+Obecna Stacja: Station 146
+Procent ukończonej trasy pomiędzy najbliższymi stacjami: 0
+Prędkość: 88.16929118617661
+Liczba wagonów :0
+Informacja o wagonach: []
+
+
