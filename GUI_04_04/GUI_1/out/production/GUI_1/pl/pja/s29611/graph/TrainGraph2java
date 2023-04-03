@@ -1,0 +1,146 @@
+package pl.pja.s29611.graph;
+
+/*
+import java.util.*;
+
+public class TrainGraph {
+    /*
+    private List<Station> stations;
+    private List<Connection> connections;
+    private Map<Station, List<Station>> neighbors;
+
+
+    public TrainGraph() {
+        this.stations = new ArrayList<>();
+        this.connections = new ArrayList<>();
+        this.neighbors = new HashMap<>();
+    }
+
+    public void addStation(Station station) {
+        stations.add(station);
+    }
+
+    public void addConnection(Station source, Station destination, double distance) {
+        Connection connection = new Connection(destination, distance);
+        source.addConnection(connection);
+    }
+
+
+
+    private List<Station> stations;
+    private List<Connection> connections;
+    private Map<Station, List<Station>> neighbors;
+
+    public TrainGraph() {
+        this.stations = new ArrayList<>();
+        this.connections = new ArrayList<>();
+        this.neighbors = new HashMap<>();
+    }
+
+    public List<Station> getStations() {
+        return stations;
+    }
+
+    public void addStation(Station station) {
+        stations.add(station);
+        neighbors.put(station, new ArrayList<>());
+    }
+
+    public List<Connection> getConnections() {
+        return connections;
+    }
+
+    public void addConnection(Station source, Station destination, int distance) {
+        Connection connection = new Connection(source, destination, distance);
+        connections.add(connection);
+        neighbors.get(source).add(destination);
+    }
+
+    public List<Station> getNeighbors(Station station) {
+        return neighbors.get(station);
+    }
+
+    public Station getSource(Connection connection) {
+        return connection.getSource();
+    }
+
+    public void setDestination(Connection connection, Station destination) {
+        connection.setDestination(destination);
+        neighbors.get(connection.getSource()).add(destination);
+    }
+
+
+    public List<Station> findShortestPath(Station source, Station destination) {
+        Map<Station, Double> distances = new HashMap<>();
+        Map<Station, Station> previousStations = new HashMap<>();
+        PriorityQueue<Station> queue = new PriorityQueue<>(Comparator.comparingDouble(distances::get));
+        List<Station> path = new ArrayList<>();
+
+        for (Station station : stations) {
+            if (station == source) {
+                distances.put(station, 0.0);
+            } else {
+                distances.put(station, Double.MAX_VALUE);
+            }
+            queue.offer(station);
+        }
+
+        while (!queue.isEmpty()) {
+            Station currentStation = queue.poll();
+            if (currentStation == destination) {
+                while (previousStations.containsKey(currentStation)) {
+                    path.add(currentStation);
+                    currentStation = previousStations.get(currentStation);
+                }
+                path.add(source);
+                Collections.reverse(path);
+                return path;
+            }
+
+            for (Connection connection : currentStation.getConnections()) {
+                Station nextStation = connection.getDestination();
+                double distance = distances.get(currentStation) + connection.getDistance();
+                if (distance < distances.get(nextStation)) {
+                    distances.put(nextStation, distance);
+                    previousStations.put(nextStation, currentStation);
+                    queue.remove(nextStation);
+                    queue.offer(nextStation);
+                }
+            }
+        }
+
+        return null;
+    }
+
+    public static TrainGraph generateTrainNetwork(int numStations, int avgConnectionsPerStation, double rewiringProbability) {
+        // Create graph with numStations nodes
+        TrainGraph graph = new TrainGraph();
+        for (int i = 0; i < numStations; i++) {
+            graph.addStation(new Station("Station " + i));
+        }
+
+        // Create regular ring lattice with avgConnectionsPerStation neighbors
+        int numConnections = numStations * avgConnectionsPerStation / 2;
+        int numNeighbors = avgConnectionsPerStation / 2;
+        for (int i = 0; i < numStations; i++) {
+            for (int j = 1; j <= numNeighbors; j++) {
+                int neighborIndex = (i + j) % numStations;
+                Station neighbor = graph.getStations().get(neighborIndex);
+                graph.addConnection(graph.getStations().get(i), neighbor, 10 + (int) (Math.random() * 30), 1 + (int) (Math.random() * 5));
+            }
+        }
+
+        // Rewire edges with probability p
+        for (Connection connection : graph.getConnections()) {
+            if (Math.random() < rewiringProbability) {
+                Station newDestination;
+                do {
+                    newDestination = graph.getStations().get((int) (Math.random() * numStations));
+                } while (newDestination == connection.getDestination() || graph.getNeighbors(connection.getSource()).contains(newDestination));
+                connection.setDestination(newDestination);
+            }
+        }
+
+        return graph;
+    }
+}
